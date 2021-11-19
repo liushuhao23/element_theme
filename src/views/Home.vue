@@ -1,18 +1,28 @@
+<!--
+ * @Description: 
+ * @Version: 2.0
+ * @Autor: liushuhao
+ * @Date: 2021-11-18 14:34:51
+ * @LastEditors: liushuhao
+ * @LastEditTime: 2021-11-19 11:27:41
+-->
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <el-button type="primary">Primary</el-button>
+    <span class="testClass">11</span>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
 export default defineComponent({
-  name: 'Home',
-  components: {
-    HelloWorld,
-  },
+  name: 'Home'
 });
 </script>
+<style lang="scss">
+@import '../styles/theme/index.scss';
+.testClass {
+  color: $color-test
+}
+</style>

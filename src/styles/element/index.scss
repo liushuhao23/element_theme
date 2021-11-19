@@ -1,0 +1,86 @@
+
+// @use 'sass:math';
+// @use 'sass:map';
+// :root {
+//   --red-rgb-1: 255, 242, 240;
+//   --red-rgb-2: 255, 220, 214;
+//   --red-rgb-3: 255, 182, 173;
+//   --red-rgb-4: 255, 141, 133;
+//   --red-rgb-5: 255, 98, 91;
+//   --red-rgb-6: 244, 48, 48;
+//   --red-rgb-7: 207, 31, 37;
+//   --red-rgb-8: 168, 17, 27;
+//   --red-rgb-9: 130, 7, 19;
+//   --red-rgb-10: 92, 4, 15;
+
+
+//   --red-1: rgb(var(--red-rgb-1)); /** #FFF2F0 **/
+//   --red-2: rgb(var(--red-rgb-2)); /** #FFDCD6 **/
+//   --red-3: rgb(var(--red-rgb-3)); /** FFB6AD **/
+//   --red-4: rgb(var(--red-rgb-4)); /** #FF8D85 **/
+//   --red-5: rgb(var(--red-rgb-5)); /** #FF625B **/
+//   --red-6: rgb(var(--red-rgb-6)); /** #F43030 **/
+//   --red-7: rgb(var(--red-rgb-7)); /** #CF1F25 **/
+//   --red-8: rgb(var(--red-rgb-8)); /** #A8111B **/
+//   --red-9: rgb(var(--red-rgb-9)); /** #820713 **/
+//   --red-10: rgb(var(--red-rgb-10)); /** #5C040F **/
+// }
+@use "../theme/index.scss" as *;
+// &:root {
+//   --color-tests: #FF8D85;
+// };
+$color-test: $color-tests ;
+$--colors: (
+  "primary": (
+    "base": $color-test,
+  ),
+  // "primary": (
+  //   "base": var(--primary-color),
+  // ),
+  "success": (
+    "base": #21ba45,
+  ),
+  "warning": (
+    "base": #f2711c,
+  ),
+  "danger": (
+    "base": #db2828,
+  ),
+  "error": (
+    "base": #db2828,
+  ),
+  "info": (
+    "base": #42b8dd,
+  ),
+);
+// $--button: (
+//   background-color: map.get($--colors, 'success', 'base'),
+// );
+// $--test: map.get($--colors, 'success', 'base');
+
+// $--table: (
+//   'border-color': map.get($--colors, 'danger', 'base'),
+//   'border': 1px solid map.get($--colors, 'danger', 'base'),
+//   'row-hover-background-color': map.get($--colors, 'error', 'base'),
+//   // 'font-color': var(--el-text-color-regular),
+//   // 'header-font-color': var(--el-text-color-secondary),
+//   // 'row-hover-background-color': var(--el-background-color-base),
+//   // 'current-row-background-color': var(--el-color-primary-light-9),
+//   // 'header-background-color': var(--el-color-white),
+//   // 'fixed-box-shadow': 0 0 10px rgba(0, 0, 0, 0.12),
+//   // 'background-color': var(--el-color-white),
+//   // 'tr-background-color': var(--el-color-white),
+//   // 'expanded-cell-background-color': var(--el-color-white),
+// );
+
+// You should use them in scss, because we calculate it by sass.
+// comment next lines to use default color
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: $--colors,
+);
+
+// if you want to import all
+@use "element-plus/theme-chalk/src/index.scss" as *;
+
+// You can comment it to hide debug info.
+// @debug $--colors;
