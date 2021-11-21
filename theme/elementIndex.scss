@@ -1,0 +1,297 @@
+
+// Converted Variables
+
+$neutral-color-rgb-1: 246, 249, 252 !default;
+$neutral-color-rgb-2: 236, 240, 248 !default;
+$neutral-color-rgb-3: 225, 230, 241 !default;
+$neutral-color-rgb-4: 201, 210, 225 !default;
+$neutral-color-rgb-5: 157, 170, 194 !default;
+$neutral-color-rgb-6: 109, 123, 152 !default;
+$neutral-color-rgb-7: 71, 81, 106 !default;
+$neutral-color-rgb-8: 42, 51, 74 !default;
+$neutral-color-rgb-9: 24, 30, 45 !default;
+$neutral-color-rgb-10: 14, 17, 27 !default;
+$neutral-color-1: rgb($neutral-color-rgb-1) !default;
+$neutral-color-2: rgb($neutral-color-rgb-2) !default;
+$neutral-color-3: rgb($neutral-color-rgb-3) !default;
+$neutral-color-4: rgb($neutral-color-rgb-4) !default;
+$neutral-color-5: rgb($neutral-color-rgb-5) !default;
+$neutral-color-6: rgb($neutral-color-rgb-6) !default;
+$neutral-color-7: rgb($neutral-color-rgb-7) !default;
+$neutral-color-8: rgb($neutral-color-rgb-8) !default;
+$neutral-color-9: rgb($neutral-color-rgb-9) !default;
+$neutral-color-10: rgb($neutral-color-rgb-10) !default;
+$red-rgb-1: 255, 242, 240 !default;
+$red-rgb-2: 255, 220, 214 !default;
+$red-rgb-3: 255, 182, 173 !default;
+$red-rgb-4: 255, 141, 133 !default;
+$red-rgb-5: 255, 98, 91 !default;
+$red-rgb-6: 244, 48, 48 !default;
+$red-rgb-7: 207, 31, 37 !default;
+$red-rgb-8: 168, 17, 27 !default;
+$red-rgb-9: 130, 7, 19 !default;
+$red-rgb-10: 92, 4, 15 !default;
+$red-1: rgb($red-rgb-1) !default;
+$red-2: rgb($red-rgb-2) !default;
+$red-3: rgb($red-rgb-3) !default;
+$red-4: rgb($red-rgb-4) !default;
+$red-5: rgb($red-rgb-5) !default;
+$red-6: rgb($red-rgb-6) !default;
+$red-7: rgb($red-rgb-7) !default;
+$red-8: rgb($red-rgb-8) !default;
+$red-9: rgb($red-rgb-9) !default;
+$red-10: rgb($red-rgb-10) !default;
+$orange-rgb-1: 255, 246, 230 !default;
+$orange-rgb-2: 255, 218, 163 !default;
+$orange-rgb-3: 255, 198, 122 !default;
+$orange-rgb-4: 255, 174, 82 !default;
+$orange-rgb-5: 255, 148, 41 !default;
+$orange-rgb-6: 255, 119, 0 !default;
+$orange-rgb-7: 217, 94, 0 !default;
+$orange-rgb-8: 179, 71, 0 !default;
+$orange-rgb-9: 140, 51, 0 !default;
+$orange-rgb-10: 102, 34, 0 !default;
+$orange-1: rgb($orange-rgb-1) !default;
+$orange-2: rgb($orange-rgb-2) !default;
+$orange-3: rgb($orange-rgb-3) !default;
+$orange-4: rgb($orange-rgb-4) !default;
+$orange-5: rgb($orange-rgb-5) !default;
+$orange-6: rgb($orange-rgb-6) !default;
+$orange-7: rgb($orange-rgb-7) !default;
+$orange-8: rgb($orange-rgb-8) !default;
+$orange-9: rgb($orange-rgb-9) !default;
+$orange-10: rgb($orange-rgb-10) !default;
+$yellow-rgb-1: 255, 251, 230 !default;
+$yellow-rgb-2: 255, 238, 163 !default;
+$yellow-rgb-3: 255, 226, 122 !default;
+$yellow-rgb-4: 255, 212, 82 !default;
+$yellow-rgb-5: 255, 194, 41 !default;
+$yellow-rgb-6: 255, 174, 0 !default;
+$yellow-rgb-7: 217, 141, 0 !default;
+$yellow-rgb-8: 179, 110, 0 !default;
+$yellow-rgb-9: 140, 82, 0 !default;
+$yellow-rgb-10: 102, 56, 0 !default;
+$yellow-1: rgb($yellow-rgb-1) !default;
+$yellow-2: rgb($yellow-rgb-2) !default;
+$yellow-3: rgb($yellow-rgb-3) !default;
+$yellow-4: rgb($yellow-rgb-4) !default;
+$yellow-5: rgb($yellow-rgb-5) !default;
+$yellow-6: rgb($yellow-rgb-6) !default;
+$yellow-7: rgb($yellow-rgb-7) !default;
+$yellow-8: rgb($yellow-rgb-8) !default;
+$yellow-9: rgb($yellow-rgb-9) !default;
+$yellow-10: rgb($yellow-rgb-10) !default;
+$purple-rgb-1: 245, 240, 255 !default;
+$purple-rgb-2: 216, 199, 255 !default;
+$purple-rgb-3: 184, 158, 255 !default;
+$purple-rgb-4: 149, 117, 255 !default;
+$purple-rgb-5: 111, 76, 255 !default;
+$purple-rgb-6: 79, 52, 217 !default;
+$purple-rgb-7: 55, 36, 179 !default;
+$purple-rgb-8: 33, 21, 140 !default;
+$purple-rgb-9: 20, 14, 102 !default;
+$purple-rgb-10: 18, 11, 81 !default;
+$purple-1: rgb($purple-rgb-1) !default;
+$purple-2: rgb($purple-rgb-2) !default;
+$purple-3: rgb($purple-rgb-3) !default;
+$purple-4: rgb($purple-rgb-4) !default;
+$purple-5: rgb($purple-rgb-5) !default;
+$purple-6: rgb($purple-rgb-6) !default;
+$purple-7: rgb($purple-rgb-7) !default;
+$purple-8: rgb($purple-rgb-8) !default;
+$purple-9: rgb($purple-rgb-9) !default;
+$purple-10: rgb($purple-rgb-10) !default;
+$green-rgb-1: 230, 255, 241 !default;
+$green-rgb-2: 155, 242, 196 !default;
+$green-rgb-3: 110, 230, 170 !default;
+$green-rgb-4: 69, 217, 148 !default;
+$green-rgb-5: 33, 204, 130 !default;
+$green-rgb-6: 0, 190, 113 !default;
+$green-rgb-7: 0, 153, 97 !default;
+$green-rgb-8: 0, 115, 76 !default;
+$green-rgb-9: 0, 77, 54 !default;
+$green-rgb-10: 0, 38, 28 !default;
+$green-1: rgb($green-rgb-1) !default;
+$green-2: rgb($green-rgb-2) !default;
+$green-3: rgb($green-rgb-3) !default;
+$green-4: rgb($green-rgb-4) !default;
+$green-5: rgb($green-rgb-5) !default;
+$green-6: rgb($green-rgb-6) !default;
+$green-7: rgb($green-rgb-7) !default;
+$green-8: rgb($green-rgb-8) !default;
+$green-9: rgb($green-rgb-9) !default;
+$green-10: rgb($green-rgb-10) !default;
+$blue-rgb-1: 230, 247, 255 !default;
+$blue-rgb-2: 173, 228, 255 !default;
+$blue-rgb-3: 133, 210, 255 !default;
+$blue-rgb-4: 92, 190, 255 !default;
+$blue-rgb-5: 51, 167, 255 !default;
+$blue-rgb-6: 10, 135, 245 !default;
+$blue-rgb-7: 0, 103, 207 !default;
+$blue-rgb-8: 0, 79, 168 !default;
+$blue-rgb-9: 0, 56, 130 !default;
+$blue-rgb-10: 0, 37, 92 !default;
+$blue-1: rgb($blue-rgb-1) !default;
+$blue-2: rgb($blue-rgb-2) !default;
+$blue-3: rgb($blue-rgb-3) !default;
+$blue-4: rgb($blue-rgb-4) !default;
+$blue-5: rgb($blue-rgb-5) !default;
+$blue-6: rgb($blue-rgb-6) !default;
+$blue-7: rgb($blue-rgb-7) !default;
+$blue-8: rgb($blue-rgb-8) !default;
+$blue-9: rgb($blue-rgb-9) !default;
+$blue-10: rgb($blue-rgb-10) !default;
+$link-color-rgb-1: 230 240 255 !default;
+$link-color-rgb-2: 179 209 255 !default;
+$link-color-rgb-3: 153, 190, 255 !default;
+$link-color-rgb-4: 128, 170, 255 !default;
+$link-color-rgb-5: 102, 148, 255 !default;
+$link-color-rgb-6: 65, 106, 217 !default;
+$link-color-rgb-7: 38, 74, 191 !default;
+$link-color-rgb-8: 17, 46, 166 !default;
+$link-color-rgb-9: 0, 23, 140 !default;
+$link-color-rgb-10: 0, 15, 115 !default;
+$link-color-1: rgb($link-color-rgb-1) !default;
+$link-color-2: rgb($link-color-rgb-2) !default;
+$link-color-3: rgb($link-color-rgb-3) !default;
+$link-color-4: rgb($link-color-rgb-4) !default;
+$link-color-5: rgb($link-color-rgb-5) !default;
+$link-color-6: rgb($link-color-rgb-6) !default;
+$link-color-7: rgb($link-color-rgb-7) !default;
+$link-color-8: rgb($link-color-rgb-8) !default;
+$link-color-9: rgb($link-color-rgb-9) !default;
+$link-color-10: rgb($link-color-rgb-10) !default;
+$primary-color-rgb-1: 255, 246, 240 !default;
+$primary-color-rgb-2: 255, 229, 214 !default;
+$primary-color-rgb-3: 255, 201, 173 !default;
+$primary-color-rgb-4: 255, 169, 133 !default;
+$primary-color-rgb-5: 255, 135, 92 !default;
+$primary-color-rgb-6: 246, 93, 48 !default;
+$primary-color-rgb-7: 207, 66, 31 !default;
+$primary-color-rgb-8: 168, 42, 17 !default;
+$primary-color-rgb-9: 130, 23, 7 !default;
+$primary-color-rgb-10: 92, 12, 4 !default;
+$primary-color-1: rgb($primary-color-rgb-1) !default;
+$primary-color-2: rgb($primary-color-rgb-2) !default;
+$primary-color-3: rgb($primary-color-rgb-3) !default;
+$primary-color-4: rgb($primary-color-rgb-4) !default;
+$primary-color-5: rgb($primary-color-rgb-5) !default;
+$primary-color-6: rgb($primary-color-rgb-6) !default;
+$primary-color-7: rgb($primary-color-rgb-7) !default;
+$primary-color-8: rgb($primary-color-rgb-8) !default;
+$primary-color-9: rgb($primary-color-rgb-9) !default;
+$primary-color-10: rgb($primary-color-rgb-10) !default;
+$font-family-1: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-size-1: 12px !default;
+$font-size-2: 14px !default;
+$font-size-3: 16px !default;
+$font-size-4: 20px !default;
+$font-size-5: 24px !default;
+$font-size-6: 28px !default;
+$font-size-7: 32px !default;
+
+// Custom Media Query Variables
+
+
+/************************************* THE EXTENSIONS OF COLOR SYSTEM [色彩体系] *************************************//*
+ ************************************ CBIM DESIGN SYSTEM VARIABLES ************************************
+ */
+
+
+
+
+
+/*
+ ************************************ CBIM DESIGN SYSTEM GLOBAL STYLE ************************************
+ */
+
+
+/*
+ ************************************ THE CORE OF COLOR SYSTEM [色彩体系核心] ************************************
+ */
+/*
+ ************************************ THE AUXILIARY COLOR SYSTEM EXTENSION OF COLOR SYSTEM [色彩体系 - 辅助色彩体系扩展] ************************************
+ */
+body {
+    font-family: $font-family-1
+}
+body {
+    caret-color: $primary-color;
+}
+/*
+ ************************************ THE COMPONENT OF ANIMATION SYSTEM [动画体系- 组件] ************************************
+ */
+
+/* ANIMATION */
+@keyframes btn-primary-hover {
+    0%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 100%);}
+    2%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 98%);}
+    4%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 96%);}
+    6%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 94%);}
+    8%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 92%);}
+    10%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 90%);}
+    12%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 88%);}
+    14%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 86%);}
+    16%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 84%);}
+    18%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 82%);}
+    20%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 80%);}
+    22%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 78%);}
+    24%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 76%);}
+    26%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 74%);}
+    28%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 72%);}
+    30%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 70%);}
+    32%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 68%);}
+    34%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 66%);}
+    36%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 64%);}
+    38%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 62%);}
+    40%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 60%);}
+    42%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 58%);}
+    44%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 56%);}
+    46%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 54%);}
+    48%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 52%);}
+    50%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 50%);}
+    52%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 48%);}
+    54%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 46%);}
+    56%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 44%);}
+    58%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 42%);}
+    60%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 40%);}
+    62%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 38%);}
+    64%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 36%);}
+    66%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 34%);}
+    68%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 32%);}
+    70%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 30%);}
+    72%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 28%);}
+    74%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 26%);}
+    76%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 24%);}
+    78%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 22%);}
+    80%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 20%);}
+    82%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 18%);}
+    84%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 16%);}
+    86%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 14%);}
+    88%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 12%);}
+    90%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 10%);}
+    92%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 8%);}
+    95%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 6%);}
+    96%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 4%);}
+    98%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 2%);}
+    100%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 0%);}
+}
+/*
+ ************************************ THE FONT OF TYPOGRAPHY SYSTEM [排版体系 - 字体] ************************************
+ */
+/*
+ ************************************ THE ANIMATION SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 动画体系] ************************************
+ */
+
+
+
+/*
+ ************************************ THE COLOR SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 色彩体系] ************************************
+ */
+
+
+/*
+ ************************************ THE TYPOGRAPHY SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 排版体系] ************************************
+ */
+
+

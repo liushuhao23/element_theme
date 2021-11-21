@@ -1,0 +1,18 @@
+/*
+ ************************************ THE COMPONENT COLOR EXTENSION OF COLOR SYSTEM [色彩体系 - 组件色彩扩展] ************************************
+ */
+:root{
+    /********** COMPONENT COMMON COLOR [组件通用颜色] **********/
+    --component-background: rgba(var(--neutral-color-rgb-3), 0.6);
+
+
+    /********** BUTTON COLOR [Button 颜色] **********/
+    --btn-primary-bg:  linear-gradient(135deg, var(--primary-color), var(--primary-color-5)); /** 对角渐变 从左上到右下 **/
+
+    /********** TABLE COLOR [Table 颜色] **********/
+    --table-fixed-odd-row-bg: #F2F4F9;
+    --table-fixed-even-row-bg: #F9FAFC;
+
+    /********** MODAL COLOR [Modal 颜色] **********/
+   --modal-bg: rgba(var(--neutral-color-rgb-1), 0.95);
+}

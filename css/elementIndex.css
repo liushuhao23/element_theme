@@ -1,0 +1,335 @@
+/************************************* THE EXTENSIONS OF COLOR SYSTEM [色彩体系] *************************************//*
+ ************************************ CBIM DESIGN SYSTEM VARIABLES ************************************
+ */
+
+
+
+
+
+/*
+ ************************************ CBIM DESIGN SYSTEM GLOBAL STYLE ************************************
+ */
+
+
+/*
+ ************************************ THE CORE OF COLOR SYSTEM [色彩体系核心] ************************************
+ */
+
+
+:root {
+    --neutral-color-rgb-1: 246, 249, 252;
+    --neutral-color-rgb-2: 236, 240, 248;
+    --neutral-color-rgb-3: 225, 230, 241;
+    --neutral-color-rgb-4: 201, 210, 225;
+    --neutral-color-rgb-5: 157, 170, 194;
+    --neutral-color-rgb-6: 109, 123, 152;
+    --neutral-color-rgb-7: 71, 81, 106;
+    --neutral-color-rgb-8: 42, 51, 74;
+    --neutral-color-rgb-9: 24, 30, 45;
+    --neutral-color-rgb-10: 14, 17, 27;
+
+
+    /********** NEUTRAL COLOR [中性色]  **********/
+    --neutral-color-1: rgb(var(--neutral-color-rgb-1)); /** #f6f9fc **/
+    --neutral-color-2: rgb(var(--neutral-color-rgb-2)); /** #ECF0F8 **/
+    --neutral-color-3: rgb(var(--neutral-color-rgb-3)); /** #E1E6F1 **/
+    --neutral-color-4: rgb(var(--neutral-color-rgb-4)); /** #C9D2E1 **/
+    --neutral-color-5: rgb(var(--neutral-color-rgb-5)); /** #9DAAC2 **/
+    --neutral-color-6: rgb(var(--neutral-color-rgb-6)); /** #6D7B98 **/
+    --neutral-color-7: rgb(var(--neutral-color-rgb-7)); /** #47516A **/
+    --neutral-color-8: rgb(var(--neutral-color-rgb-8)); /** #2A334A **/
+    --neutral-color-9: rgb(var(--neutral-color-rgb-9)); /** #181E2D **/
+    --neutral-color-10: rgb(var(--neutral-color-rgb-10)); /** #0E111B **/
+}
+/*
+ ************************************ THE AUXILIARY COLOR SYSTEM EXTENSION OF COLOR SYSTEM [色彩体系 - 辅助色彩体系扩展] ************************************
+ */
+:root {
+    /********** RED COLOR [红色] **********/
+    --red-rgb-1: 255, 242, 240;
+    --red-rgb-2: 255, 220, 214;
+    --red-rgb-3: 255, 182, 173;
+    --red-rgb-4: 255, 141, 133;
+    --red-rgb-5: 255, 98, 91;
+    --red-rgb-6: 244, 48, 48;
+    --red-rgb-7: 207, 31, 37;
+    --red-rgb-8: 168, 17, 27;
+    --red-rgb-9: 130, 7, 19;
+    --red-rgb-10: 92, 4, 15;
+
+
+    --red-1: rgb(var(--red-rgb-1)); /** #FFF2F0 **/
+    --red-2: rgb(var(--red-rgb-2)); /** #FFDCD6 **/
+    --red-3: rgb(var(--red-rgb-3)); /** FFB6AD **/
+    --red-4: rgb(var(--red-rgb-4)); /** #FF8D85 **/
+    --red-5: rgb(var(--red-rgb-5)); /** #FF625B **/
+    --red-6: rgb(var(--red-rgb-6)); /** #F43030 **/
+    --red-7: rgb(var(--red-rgb-7)); /** #CF1F25 **/
+    --red-8: rgb(var(--red-rgb-8)); /** #A8111B **/
+    --red-9: rgb(var(--red-rgb-9)); /** #820713 **/
+    --red-10: rgb(var(--red-rgb-10)); /** #5C040F **/
+
+    /********** ORANGE COLOR [橙色]  **********/
+    --orange-rgb-1: 255, 246, 230;
+    --orange-rgb-2: 255, 218, 163;
+    --orange-rgb-3: 255, 198, 122;
+    --orange-rgb-4: 255, 174, 82;
+    --orange-rgb-5: 255, 148, 41;
+    --orange-rgb-6: 255, 119, 0;
+    --orange-rgb-7: 217, 94, 0;
+    --orange-rgb-8: 179, 71, 0;
+    --orange-rgb-9: 140, 51, 0;
+    --orange-rgb-10: 102, 34, 0;
+
+
+    --orange-1: rgb(var(--orange-rgb-1)); /** #FFF6E6 **/
+    --orange-2: rgb(var(--orange-rgb-2)); /** #FFDAA3 **/
+    --orange-3: rgb(var(--orange-rgb-3)); /** #FFC67A **/
+    --orange-4: rgb(var(--orange-rgb-4)); /** #FFAE52 **/
+    --orange-5: rgb(var(--orange-rgb-5)); /** #FF9429 **/
+    --orange-6: rgb(var(--orange-rgb-6)); /** #FF7700 **/
+    --orange-7: rgb(var(--orange-rgb-7)); /** #D95E00 **/
+    --orange-8: rgb(var(--orange-rgb-8)); /** #B34700 **/
+    --orange-9: rgb(var(--orange-rgb-9)); /** #8C3300 **/
+    --orange-10: rgb(var(--orange-rgb-10)); /** #662200 **/
+
+    /********** YELLOW COLOR [黄色]  **********/
+    --yellow-rgb-1: 255, 251, 230;
+    --yellow-rgb-2: 255, 238, 163;
+    --yellow-rgb-3: 255, 226, 122;
+    --yellow-rgb-4: 255, 212, 82;
+    --yellow-rgb-5: 255, 194, 41;
+    --yellow-rgb-6: 255, 174, 0;
+    --yellow-rgb-7: 217, 141, 0;
+    --yellow-rgb-8: 179, 110, 0;
+    --yellow-rgb-9: 140, 82, 0;
+    --yellow-rgb-10: 102, 56, 0;
+
+    --yellow-1: rgb(var(--yellow-rgb-1)); /** #FFFBE6 **/
+    --yellow-2: rgb(var(--yellow-rgb-2)); /** #FFEEA3 **/
+    --yellow-3: rgb(var(--yellow-rgb-3)); /** #FFE27A **/
+    --yellow-4: rgb(var(--yellow-rgb-4)); /** #FFD452 **/
+    --yellow-5: rgb(var(--yellow-rgb-5)); /** #FFC229 **/
+    --yellow-6: rgb(var(--yellow-rgb-6)); /** #FFAE00 **/
+    --yellow-7: rgb(var(--yellow-rgb-7)); /** #D98D00 **/
+    --yellow-8: rgb(var(--yellow-rgb-8)); /** #B36E00 **/
+    --yellow-9: rgb(var(--yellow-rgb-9)); /** #8C5200 **/
+    --yellow-10: rgb(var(--yellow-rgb-10)); /** #663800 **/
+
+    /********** PURPLE COLOR [紫色] **********/
+    --purple-rgb-1: 245, 240, 255;
+    --purple-rgb-2: 216, 199, 255;
+    --purple-rgb-3: 184, 158, 255;
+    --purple-rgb-4: 149, 117, 255;
+    --purple-rgb-5: 111, 76, 255;
+    --purple-rgb-6: 79, 52, 217;
+    --purple-rgb-7: 55, 36, 179;
+    --purple-rgb-8: 33, 21, 140;
+    --purple-rgb-9: 20, 14, 102;
+    --purple-rgb-10: 18, 11, 81;
+
+    --purple-1: rgb(var(--purple-rgb-1)); /** #F5F0FF **/
+    --purple-2: rgb(var(--purple-rgb-2)); /** #D8C7FF **/
+    --purple-3: rgb(var(--purple-rgb-3)); /** #B89EFF **/
+    --purple-4: rgb(var(--purple-rgb-4)); /** #9575FF **/
+    --purple-5: rgb(var(--purple-rgb-5)); /** #6F4CFF **/
+    --purple-6: rgb(var(--purple-rgb-6)); /** #6F4CFF **/
+    --purple-7: rgb(var(--purple-rgb-7)); /** #3724B3 **/
+    --purple-8: rgb(var(--purple-rgb-8)); /** #21158C **/
+    --purple-9: rgb(var(--purple-rgb-9)); /** #140E66 **/
+    --purple-10: rgb(var(--purple-rgb-10)); /** #120B51 **/
+
+    /********** GREEN COLOR [绿色] **********/
+    --green-rgb-1: 230, 255, 241;
+    --green-rgb-2: 155, 242, 196;
+    --green-rgb-3: 110, 230, 170;
+    --green-rgb-4: 69, 217, 148;
+    --green-rgb-5: 33, 204, 130;
+    --green-rgb-6: 0, 190, 113;
+    --green-rgb-7: 0, 153, 97;
+    --green-rgb-8: 0, 115, 76;
+    --green-rgb-9: 0, 77, 54;
+    --green-rgb-10: 0, 38, 28;
+
+    --green-1: rgb(var(--green-rgb-1)); /** #E6FFF1 **/
+    --green-2: rgb(var(--green-rgb-2)); /** #9BF2C4 **/
+    --green-3: rgb(var(--green-rgb-3)); /** #6EE6AA **/
+    --green-4: rgb(var(--green-rgb-4)); /** #45D994 **/
+    --green-5: rgb(var(--green-rgb-5)); /** #21CC82 **/
+    --green-6: rgb(var(--green-rgb-6)); /** #00BE71 **/
+    --green-7: rgb(var(--green-rgb-7)); /** #009961 **/
+    --green-8: rgb(var(--green-rgb-8)); /** #00734C **/
+    --green-9: rgb(var(--green-rgb-9)); /** #004D36 **/
+    --green-10: rgb(var(--green-rgb-10)); /** #00261C **/
+
+    /********** BLUE COLOR [蓝色] **********/
+    --blue-rgb-1: 230, 247, 255;
+    --blue-rgb-2: 173, 228, 255;
+    --blue-rgb-3: 133, 210, 255;
+    --blue-rgb-4: 92, 190, 255;
+    --blue-rgb-5: 51, 167, 255;
+    --blue-rgb-6: 10, 135, 245;
+    --blue-rgb-7: 0, 103, 207;
+    --blue-rgb-8: 0, 79, 168;
+    --blue-rgb-9: 0, 56, 130;
+    --blue-rgb-10: 0, 37, 92;
+
+    --blue-1: rgb(var(--blue-rgb-1)); /** #E6F7FF **/
+    --blue-2: rgb(var(--blue-rgb-2)); /** #ADE4FF **/
+    --blue-3: rgb(var(--blue-rgb-3)); /** #85D2FF **/
+    --blue-4: rgb(var(--blue-rgb-4)); /** #5CBEFF **/
+    --blue-5: rgb(var(--blue-rgb-5)); /** #33A7FF **/
+    --blue-6: rgb(var(--blue-rgb-6)); /** #0A87F5 **/
+    --blue-7: rgb(var(--blue-rgb-7)); /** #0067CF **/
+    --blue-8: rgb(var(--blue-rgb-8)); /** #004FA8 **/
+    --blue-9: rgb(var(--blue-rgb-9)); /** #003882 **/
+    --blue-10: rgb(var(--blue-rgb-10)); /** #00255C **/
+
+
+
+    /********** link-color COLOR [链接色] **********/
+    --link-color-rgb-1: 230 240 255;
+    --link-color-rgb-2: 179 209 255;
+    --link-color-rgb-3: 153, 190, 255;
+    --link-color-rgb-4: 128, 170, 255;
+    --link-color-rgb-5: 102, 148, 255;
+    --link-color-rgb-6: 65, 106, 217;
+    --link-color-rgb-7: 38, 74, 191;
+    --link-color-rgb-8: 17, 46, 166;
+    --link-color-rgb-9: 0, 23, 140;
+    --link-color-rgb-10: 0, 15, 115;
+
+    --link-color-1: rgb(var(--link-color-rgb-1)); /** #E6F0FF **/
+    --link-color-2: rgb(var(--link-color-rgb-2)); /** #B3D1FF **/
+    --link-color-3: rgb(var(--link-color-rgb-3)); /** #99BEFF **/
+    --link-color-4: rgb(var(--link-color-rgb-4)); /** #80AAFF **/
+    --link-color-5: rgb(var(--link-color-rgb-5)); /** #6694ff **/
+    --link-color-6: rgb(var(--link-color-rgb-6)); /** #416AD9 **/
+    --link-color-7: rgb(var(--link-color-rgb-7)); /** #264ABF **/
+    --link-color-8: rgb(var(--link-color-rgb-8)); /** #112EA6 **/
+    --link-color-9: rgb(var(--link-color-rgb-9)); /** #00178C **/
+    --link-color-10: rgb(var(--link-color-rgb-10)); /** #000F73 **/
+}
+:root {
+    --primary-color-rgb-1: 255, 246, 240;
+    --primary-color-rgb-2: 255, 229, 214;
+    --primary-color-rgb-3: 255, 201, 173;
+    --primary-color-rgb-4: 255, 169, 133;
+    --primary-color-rgb-5: 255, 135, 92;
+    --primary-color-rgb-6: 246, 93, 48;
+
+    --primary-color-rgb-7: 207, 66, 31;
+    --primary-color-rgb-8: 168, 42, 17;
+    --primary-color-rgb-9: 130, 23, 7;
+    --primary-color-rgb-10: 92, 12, 4;
+
+
+    /********** BRAND COLOR AKA PRIMARY COLOR [品牌色/主色] **********/
+    --primary-color-1: rgb(var(--primary-color-rgb-1)); /** #FFF6F0 **/
+    --primary-color-2: rgb(var(--primary-color-rgb-2)); /** #FFE5D6 **/
+    --primary-color-3: rgb(var(--primary-color-rgb-3)); /** #FFC9AD **/
+    --primary-color-4: rgb(var(--primary-color-rgb-4)); /** #FFA985 **/
+    --primary-color-5: rgb(var(--primary-color-rgb-5)); /** #FF875C **/
+    --primary-color-6: rgb(var(--primary-color-rgb-6)); /** #F65D30 **/
+    --primary-color-7: rgb(var(--primary-color-rgb-7)); /** #CF421F **/
+    --primary-color-8: rgb(var(--primary-color-rgb-8)); /** #A82A11 **/
+    --primary-color-9: rgb(var(--primary-color-rgb-9)); /** #821707 **/
+    --primary-color-10: rgb(var(--primary-color-rgb-10)); /** #5C0C04 **/
+}
+body {
+    font-family: var(--font-family-1)
+}
+body {
+    caret-color: var(--primary-color);
+}
+/*
+ ************************************ THE COMPONENT OF ANIMATION SYSTEM [动画体系- 组件] ************************************
+ */
+
+/* ANIMATION */
+@keyframes btn-primary-hover {
+    0%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 100%);}
+    2%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 98%);}
+    4%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 96%);}
+    6%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 94%);}
+    8%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 92%);}
+    10%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 90%);}
+    12%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 88%);}
+    14%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 86%);}
+    16%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 84%);}
+    18%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 82%);}
+    20%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 80%);}
+    22%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 78%);}
+    24%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 76%);}
+    26%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 74%);}
+    28%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 72%);}
+    30%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 70%);}
+    32%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 68%);}
+    34%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 66%);}
+    36%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 64%);}
+    38%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 62%);}
+    40%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 60%);}
+    42%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 58%);}
+    44%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 56%);}
+    46%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 54%);}
+    48%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 52%);}
+    50%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 50%);}
+    52%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 48%);}
+    54%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 46%);}
+    56%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 44%);}
+    58%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 42%);}
+    60%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 40%);}
+    62%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 38%);}
+    64%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 36%);}
+    66%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 34%);}
+    68%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 32%);}
+    70%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 30%);}
+    72%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 28%);}
+    74%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 26%);}
+    76%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 24%);}
+    78%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 22%);}
+    80%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 20%);}
+    82%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 18%);}
+    84%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 16%);}
+    86%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 14%);}
+    88%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 12%);}
+    90%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 10%);}
+    92%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 8%);}
+    95%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 6%);}
+    96%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 4%);}
+    98%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 2%);}
+    100%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 0%);}
+}
+/*
+ ************************************ THE FONT OF TYPOGRAPHY SYSTEM [排版体系 - 字体] ************************************
+ */
+:root{
+    /********** FONT FAMILY [字体] **********/
+    --font-family-1:  -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /********** FONT SIZE [字号] **********/
+    --font-size-1: 12px;
+    --font-size-2: 14px;
+    --font-size-3: 16px;
+    --font-size-4: 20px;
+    --font-size-5: 24px;
+    --font-size-6: 28px;
+    --font-size-7: 32px;
+    /********** FONT WEIGHT [字重] **********/
+
+}
+/*
+ ************************************ THE ANIMATION SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 动画体系] ************************************
+ */
+
+
+
+/*
+ ************************************ THE COLOR SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 色彩体系] ************************************
+ */
+
+
+/*
+ ************************************ THE TYPOGRAPHY SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 排版体系] ************************************
+ */
+
+

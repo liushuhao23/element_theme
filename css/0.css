@@ -1,0 +1,13 @@
+/*
+ ************************************ CBIM DESIGN SYSTEM VARIABLES ************************************
+ */
+@import "design-system/color/index.css";
+@import "design-system/typography/index.css";
+@import "design-system/animation/index.css";
+
+
+/*
+ ************************************ CBIM DESIGN SYSTEM GLOBAL STYLE ************************************
+ */
+
+@import "global/font.css";
