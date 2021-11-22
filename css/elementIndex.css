@@ -1,4 +1,95 @@
 /************************************* THE EXTENSIONS OF COLOR SYSTEM [色彩体系] *************************************//*
+ ************************************ THE COMPONENT OF ANIMATION SYSTEM [动画体系- 组件] ************************************
+ */
+
+/* ANIMATION */
+@keyframes btn-primary-hover {
+    0%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 100%);}
+    2%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 98%);}
+    4%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 96%);}
+    6%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 94%);}
+    8%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 92%);}
+    10%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 90%);}
+    12%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 88%);}
+    14%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 86%);}
+    16%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 84%);}
+    18%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 82%);}
+    20%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 80%);}
+    22%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 78%);}
+    24%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 76%);}
+    26%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 74%);}
+    28%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 72%);}
+    30%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 70%);}
+    32%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 68%);}
+    34%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 66%);}
+    36%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 64%);}
+    38%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 62%);}
+    40%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 60%);}
+    42%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 58%);}
+    44%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 56%);}
+    46%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 54%);}
+    48%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 52%);}
+    50%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 50%);}
+    52%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 48%);}
+    54%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 46%);}
+    56%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 44%);}
+    58%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 42%);}
+    60%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 40%);}
+    62%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 38%);}
+    64%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 36%);}
+    66%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 34%);}
+    68%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 32%);}
+    70%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 30%);}
+    72%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 28%);}
+    74%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 26%);}
+    76%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 24%);}
+    78%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 22%);}
+    80%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 20%);}
+    82%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 18%);}
+    84%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 16%);}
+    86%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 14%);}
+    88%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 12%);}
+    90%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 10%);}
+    92%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 8%);}
+    95%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 6%);}
+    96%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 4%);}
+    98%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 2%);}
+    100%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 0%);}
+}
+/*
+ ************************************ THE COLOR SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 色彩体系] ************************************
+ */
+
+
+/*
+ ************************************ THE FONT OF TYPOGRAPHY SYSTEM [排版体系 - 字体] ************************************
+ */
+:root{
+    /********** FONT FAMILY [字体] **********/
+    --font-family-1:  -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /********** FONT SIZE [字号] **********/
+    --font-size-1: 12px;
+    --font-size-2: 14px;
+    --font-size-3: 16px;
+    --font-size-4: 20px;
+    --font-size-5: 24px;
+    --font-size-6: 28px;
+    --font-size-7: 32px;
+    /********** FONT WEIGHT [字重] **********/
+
+}
+/*
+ ************************************ THE TYPOGRAPHY SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 排版体系] ************************************
+ */
+
+
+body {
+    caret-color: var(--primary-color);
+}
+body {
+    font-family: var(--font-family-1)
+}
+/*
  ************************************ CBIM DESIGN SYSTEM VARIABLES ************************************
  */
 
@@ -9,6 +100,12 @@
 /*
  ************************************ CBIM DESIGN SYSTEM GLOBAL STYLE ************************************
  */
+
+
+/*
+ ************************************ THE ANIMATION SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 动画体系] ************************************
+ */
+
 
 
 /*
@@ -40,6 +137,32 @@
     --neutral-color-8: rgb(var(--neutral-color-rgb-8)); /** #2A334A **/
     --neutral-color-9: rgb(var(--neutral-color-rgb-9)); /** #181E2D **/
     --neutral-color-10: rgb(var(--neutral-color-rgb-10)); /** #0E111B **/
+}
+:root {
+    --primary-color-rgb-1: 255, 246, 240;
+    --primary-color-rgb-2: 255, 229, 214;
+    --primary-color-rgb-3: 255, 201, 173;
+    --primary-color-rgb-4: 255, 169, 133;
+    --primary-color-rgb-5: 255, 135, 92;
+    --primary-color-rgb-6: 246, 93, 48;
+
+    --primary-color-rgb-7: 207, 66, 31;
+    --primary-color-rgb-8: 168, 42, 17;
+    --primary-color-rgb-9: 130, 23, 7;
+    --primary-color-rgb-10: 92, 12, 4;
+
+
+    /********** BRAND COLOR AKA PRIMARY COLOR [品牌色/主色] **********/
+    --primary-color-1: rgb(var(--primary-color-rgb-1)); /** #FFF6F0 **/
+    --primary-color-2: rgb(var(--primary-color-rgb-2)); /** #FFE5D6 **/
+    --primary-color-3: rgb(var(--primary-color-rgb-3)); /** #FFC9AD **/
+    --primary-color-4: rgb(var(--primary-color-rgb-4)); /** #FFA985 **/
+    --primary-color-5: rgb(var(--primary-color-rgb-5)); /** #FF875C **/
+    --primary-color-6: rgb(var(--primary-color-rgb-6)); /** #F65D30 **/
+    --primary-color-7: rgb(var(--primary-color-rgb-7)); /** #CF421F **/
+    --primary-color-8: rgb(var(--primary-color-rgb-8)); /** #A82A11 **/
+    --primary-color-9: rgb(var(--primary-color-rgb-9)); /** #821707 **/
+    --primary-color-10: rgb(var(--primary-color-rgb-10)); /** #5C0C04 **/
 }
 /*
  ************************************ THE AUXILIARY COLOR SYSTEM EXTENSION OF COLOR SYSTEM [色彩体系 - 辅助色彩体系扩展] ************************************
@@ -210,126 +333,63 @@
     --link-color-9: rgb(var(--link-color-rgb-9)); /** #00178C **/
     --link-color-10: rgb(var(--link-color-rgb-10)); /** #000F73 **/
 }
-:root {
-    --primary-color-rgb-1: 255, 246, 240;
-    --primary-color-rgb-2: 255, 229, 214;
-    --primary-color-rgb-3: 255, 201, 173;
-    --primary-color-rgb-4: 255, 169, 133;
-    --primary-color-rgb-5: 255, 135, 92;
-    --primary-color-rgb-6: 246, 93, 48;
-
-    --primary-color-rgb-7: 207, 66, 31;
-    --primary-color-rgb-8: 168, 42, 17;
-    --primary-color-rgb-9: 130, 23, 7;
-    --primary-color-rgb-10: 92, 12, 4;
-
-
-    /********** BRAND COLOR AKA PRIMARY COLOR [品牌色/主色] **********/
-    --primary-color-1: rgb(var(--primary-color-rgb-1)); /** #FFF6F0 **/
-    --primary-color-2: rgb(var(--primary-color-rgb-2)); /** #FFE5D6 **/
-    --primary-color-3: rgb(var(--primary-color-rgb-3)); /** #FFC9AD **/
-    --primary-color-4: rgb(var(--primary-color-rgb-4)); /** #FFA985 **/
-    --primary-color-5: rgb(var(--primary-color-rgb-5)); /** #FF875C **/
-    --primary-color-6: rgb(var(--primary-color-rgb-6)); /** #F65D30 **/
-    --primary-color-7: rgb(var(--primary-color-rgb-7)); /** #CF421F **/
-    --primary-color-8: rgb(var(--primary-color-rgb-8)); /** #A82A11 **/
-    --primary-color-9: rgb(var(--primary-color-rgb-9)); /** #821707 **/
-    --primary-color-10: rgb(var(--primary-color-rgb-10)); /** #5C0C04 **/
-}
-body {
-    font-family: var(--font-family-1)
-}
-body {
-    caret-color: var(--primary-color);
-}
 /*
- ************************************ THE COMPONENT OF ANIMATION SYSTEM [动画体系- 组件] ************************************
+ ************************************ THE COMMON COLOR EXTENSION OF COLOR SYSTEM [色彩体系 - 通用色彩扩展] ************************************
  */
+:root {
+    /********** BASIC COLOR [通用基础颜色] **********/
+    --primary-color: var(--primary-color-6);
+    --shadow-color: rgba(var(--neutral-color-rgb-5),0.2);
+    --default-color: var(--neutral-color-5);
+    --highlight-color: var(--red-5);
+    --disabled-color: var(--neutral-color-5);
+    --disabled-bg: var(--neutral-color-1);
+    --border-color-base: var(--neutral-color-3);
+    --text-color:  var(--neutral-color-8);
+    --text-color-secondary: var(--neutral-color-7);
+    --text-selection-bg: var(--primary-color);
+    --heading-color: var(--neutral-color-9);
+    --background-color-light: #FFF;
+    --background-color-base:  rgba(var(--neutral-color-rgb-3), 0.4);
 
-/* ANIMATION */
-@keyframes btn-primary-hover {
-    0%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 100%);}
-    2%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 98%);}
-    4%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 96%);}
-    6%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 94%);}
-    8%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 92%);}
-    10%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 90%);}
-    12%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 88%);}
-    14%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 86%);}
-    16%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 84%);}
-    18%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 82%);}
-    20%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 80%);}
-    22%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 78%);}
-    24%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 76%);}
-    26%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 74%);}
-    28%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 72%);}
-    30%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 70%);}
-    32%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 68%);}
-    34%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 66%);}
-    36%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 64%);}
-    38%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 62%);}
-    40%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 60%);}
-    42%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 58%);}
-    44%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 56%);}
-    46%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 54%);}
-    48%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 52%);}
-    50%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 50%);}
-    52%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 48%);}
-    54%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 46%);}
-    56%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 44%);}
-    58%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 42%);}
-    60%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 40%);}
-    62%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 38%);}
-    64%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 36%);}
-    66%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 34%);}
-    68%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 32%);}
-    70%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 30%);}
-    72%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 28%);}
-    74%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 26%);}
-    76%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 24%);}
-    78%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 22%);}
-    80%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 20%);}
-    82%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 18%);}
-    84%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 16%);}
-    86%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 14%);}
-    88%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 12%);}
-    90%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 10%);}
-    92%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 8%);}
-    95%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 6%);}
-    96%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 4%);}
-    98%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 2%);}
-    100%   { background: linear-gradient(135deg, var(--btn-primary-bg), var(--primary-color-5) 0%);}
+
+
+
+    /**********  LINK COLOR [链接颜色] **********/
+    --link-color: #4868bd;
+    --link-hover-color: #5c8ae6;
+    --link-active-color: #354db0;
+    --link-disable-color: var(--disabled-color);
+
+
+    /********** INFO COLOR [信息颜色] **********/
+    --info-color: var(--blue-6);
+    --success-color: var(--green-6);
+    --processing-color: var(--blue-6);
+    --error-color: var(--red-6);
+    --warning-color: var(--yellow-6);
 }
 /*
- ************************************ THE FONT OF TYPOGRAPHY SYSTEM [排版体系 - 字体] ************************************
+ ************************************ THE COMPONENT COLOR EXTENSION OF COLOR SYSTEM [色彩体系 - 组件色彩扩展] ************************************
  */
 :root{
-    /********** FONT FAMILY [字体] **********/
-    --font-family-1:  -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /********** FONT SIZE [字号] **********/
-    --font-size-1: 12px;
-    --font-size-2: 14px;
-    --font-size-3: 16px;
-    --font-size-4: 20px;
-    --font-size-5: 24px;
-    --font-size-6: 28px;
-    --font-size-7: 32px;
-    /********** FONT WEIGHT [字重] **********/
+    /********** COMPONENT COMMON COLOR [组件通用颜色] **********/
+    --component-background: rgba(var(--neutral-color-rgb-3), 0.6);
 
+
+    /********** BUTTON COLOR [Button 颜色] **********/
+    --btn-primary-bg:  linear-gradient(135deg, var(--primary-color), var(--primary-color-5)); /** 对角渐变 从左上到右下 **/
+
+    /********** TABLE COLOR [Table 颜色] **********/
+    --table-fixed-odd-row-bg: #F2F4F9;
+    --table-fixed-even-row-bg: #F9FAFC;
+
+    /********** MODAL COLOR [Modal 颜色] **********/
+   --modal-bg: rgba(var(--neutral-color-rgb-1), 0.95);
 }
 /*
- ************************************ THE ANIMATION SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 动画体系] ************************************
+ ************************************ THE EXTENSIONS OF COLOR SYSTEM [色彩体系扩展] ************************************
  */
 
-
-
-/*
- ************************************ THE COLOR SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 色彩体系] ************************************
- */
-
-
-/*
- ************************************ THE TYPOGRAPHY SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 排版体系] ************************************
- */
 
 

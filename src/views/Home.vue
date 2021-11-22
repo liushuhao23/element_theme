@@ -4,7 +4,7 @@
  * @Autor: liushuhao
  * @Date: 2021-11-18 14:34:51
  * @LastEditors: liushuhao
- * @LastEditTime: 2021-11-19 11:27:41
+ * @LastEditTime: 2021-11-22 09:27:49
 -->
 <template>
   <div class="home">
@@ -21,8 +21,4 @@ export default defineComponent({
 });
 </script>
 <style lang="scss">
-@import '../styles/theme/index.scss';
-.testClass {
-  color: $color-test
-}
 </style>

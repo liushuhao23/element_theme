@@ -1,7 +1,15 @@
 
 // Converted Variables
 
-$neutral-color-rgb-1: 246, 249, 252 !default;
+$font-family-1: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-size-1: 12px !default;
+$font-size-2: 14px !default;
+$font-size-3: 16px !default;
+$font-size-4: 20px !default;
+$font-size-5: 24px !default;
+$font-size-6: 28px !default;
+$font-size-7: 32px !default;
+$neutral-color-rgb-1: 246, 249, 252, 1!default;
 $neutral-color-rgb-2: 236, 240, 248 !default;
 $neutral-color-rgb-3: 225, 230, 241 !default;
 $neutral-color-rgb-4: 201, 210, 225 !default;
@@ -11,7 +19,7 @@ $neutral-color-rgb-7: 71, 81, 106 !default;
 $neutral-color-rgb-8: 42, 51, 74 !default;
 $neutral-color-rgb-9: 24, 30, 45 !default;
 $neutral-color-rgb-10: 14, 17, 27 !default;
-$neutral-color-1: rgb($neutral-color-rgb-1) !default;
+$neutral-color-1: rgb($neutral-color-rgb-1, 1) !default;
 $neutral-color-2: rgb($neutral-color-rgb-2) !default;
 $neutral-color-3: rgb($neutral-color-rgb-3) !default;
 $neutral-color-4: rgb($neutral-color-rgb-4) !default;
@@ -21,6 +29,26 @@ $neutral-color-7: rgb($neutral-color-rgb-7) !default;
 $neutral-color-8: rgb($neutral-color-rgb-8) !default;
 $neutral-color-9: rgb($neutral-color-rgb-9) !default;
 $neutral-color-10: rgb($neutral-color-rgb-10) !default;
+$primary-color-rgb-1: 255, 246, 240 !default;
+$primary-color-rgb-2: 255, 229, 214 !default;
+$primary-color-rgb-3: 255, 201, 173 !default;
+$primary-color-rgb-4: 255, 169, 133 !default;
+$primary-color-rgb-5: 255, 135, 92 !default;
+$primary-color-rgb-6: 246, 93, 48 !default;
+$primary-color-rgb-7: 207, 66, 31 !default;
+$primary-color-rgb-8: 168, 42, 17 !default;
+$primary-color-rgb-9: 130, 23, 7 !default;
+$primary-color-rgb-10: 92, 12, 4 !default;
+$primary-color-1: rgb($primary-color-rgb-1) !default;
+$primary-color-2: rgb($primary-color-rgb-2) !default;
+$primary-color-3: rgb($primary-color-rgb-3) !default;
+$primary-color-4: rgb($primary-color-rgb-4) !default;
+$primary-color-5: rgb($primary-color-rgb-5) !default;
+$primary-color-6: rgb($primary-color-rgb-6) !default;
+$primary-color-7: rgb($primary-color-rgb-7) !default;
+$primary-color-8: rgb($primary-color-rgb-8) !default;
+$primary-color-9: rgb($primary-color-rgb-9) !default;
+$primary-color-10: rgb($primary-color-rgb-10) !default;
 $red-rgb-1: 255, 242, 240 !default;
 $red-rgb-2: 255, 220, 214 !default;
 $red-rgb-3: 255, 182, 173 !default;
@@ -161,64 +189,38 @@ $link-color-7: rgb($link-color-rgb-7) !default;
 $link-color-8: rgb($link-color-rgb-8) !default;
 $link-color-9: rgb($link-color-rgb-9) !default;
 $link-color-10: rgb($link-color-rgb-10) !default;
-$primary-color-rgb-1: 255, 246, 240 !default;
-$primary-color-rgb-2: 255, 229, 214 !default;
-$primary-color-rgb-3: 255, 201, 173 !default;
-$primary-color-rgb-4: 255, 169, 133 !default;
-$primary-color-rgb-5: 255, 135, 92 !default;
-$primary-color-rgb-6: 246, 93, 48 !default;
-$primary-color-rgb-7: 207, 66, 31 !default;
-$primary-color-rgb-8: 168, 42, 17 !default;
-$primary-color-rgb-9: 130, 23, 7 !default;
-$primary-color-rgb-10: 92, 12, 4 !default;
-$primary-color-1: rgb($primary-color-rgb-1) !default;
-$primary-color-2: rgb($primary-color-rgb-2) !default;
-$primary-color-3: rgb($primary-color-rgb-3) !default;
-$primary-color-4: rgb($primary-color-rgb-4) !default;
-$primary-color-5: rgb($primary-color-rgb-5) !default;
-$primary-color-6: rgb($primary-color-rgb-6) !default;
-$primary-color-7: rgb($primary-color-rgb-7) !default;
-$primary-color-8: rgb($primary-color-rgb-8) !default;
-$primary-color-9: rgb($primary-color-rgb-9) !default;
-$primary-color-10: rgb($primary-color-rgb-10) !default;
-$font-family-1: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-size-1: 12px !default;
-$font-size-2: 14px !default;
-$font-size-3: 16px !default;
-$font-size-4: 20px !default;
-$font-size-5: 24px !default;
-$font-size-6: 28px !default;
-$font-size-7: 32px !default;
+$primary-color: $primary-color-6 !default;
+$shadow-color: rgba($neutral-color-rgb-5,0.2) !default;
+$default-color: $neutral-color-5 !default;
+$highlight-color: $red-5 !default;
+$disabled-color: $neutral-color-5 !default;
+$disabled-bg: $neutral-color-1 !default;
+$border-color-base: $neutral-color-3 !default;
+$text-color: $neutral-color-8 !default;
+$text-color-secondary: $neutral-color-7 !default;
+$text-selection-bg: $primary-color !default;
+$heading-color: $neutral-color-9 !default;
+$background-color-light: #FFF !default;
+$background-color-base: rgba($neutral-color-rgb-3, 0.4) !default;
+$link-color: #4868bd !default;
+$link-hover-color: #5c8ae6 !default;
+$link-active-color: #354db0 !default;
+$link-disable-color: $disabled-color !default;
+$info-color: $blue-6 !default;
+$success-color: $green-6 !default;
+$processing-color: $blue-6 !default;
+$error-color: $red-6 !default;
+$warning-color: $yellow-6 !default;
+$component-background: rgba($neutral-color-rgb-3, 0.6) !default;
+$btn-primary-bg: linear-gradient(135deg, $primary-color, $primary-color-5) !default;
+$table-fixed-odd-row-bg: #F2F4F9 !default;
+$table-fixed-even-row-bg: #F9FAFC !default;
+$modal-bg: rgba($neutral-color-rgb-1, 0.95) !default;
 
 // Custom Media Query Variables
 
 
 /************************************* THE EXTENSIONS OF COLOR SYSTEM [色彩体系] *************************************//*
- ************************************ CBIM DESIGN SYSTEM VARIABLES ************************************
- */
-
-
-
-
-
-/*
- ************************************ CBIM DESIGN SYSTEM GLOBAL STYLE ************************************
- */
-
-
-/*
- ************************************ THE CORE OF COLOR SYSTEM [色彩体系核心] ************************************
- */
-/*
- ************************************ THE AUXILIARY COLOR SYSTEM EXTENSION OF COLOR SYSTEM [色彩体系 - 辅助色彩体系扩展] ************************************
- */
-body {
-    font-family: $font-family-1
-}
-body {
-    caret-color: $primary-color;
-}
-/*
  ************************************ THE COMPONENT OF ANIMATION SYSTEM [动画体系- 组件] ************************************
  */
 
@@ -277,8 +279,37 @@ body {
     100%   { background: linear-gradient(135deg, $btn-primary-bg, $primary-color-5 0%);}
 }
 /*
+ ************************************ THE COLOR SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 色彩体系] ************************************
+ */
+
+
+/*
  ************************************ THE FONT OF TYPOGRAPHY SYSTEM [排版体系 - 字体] ************************************
  */
+/*
+ ************************************ THE TYPOGRAPHY SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 排版体系] ************************************
+ */
+
+
+body {
+    caret-color: $primary-color;
+}
+body {
+    font-family: $font-family-1
+}
+/*
+ ************************************ CBIM DESIGN SYSTEM VARIABLES ************************************
+ */
+
+
+
+
+
+/*
+ ************************************ CBIM DESIGN SYSTEM GLOBAL STYLE ************************************
+ */
+
+
 /*
  ************************************ THE ANIMATION SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 动画体系] ************************************
  */
@@ -286,12 +317,20 @@ body {
 
 
 /*
- ************************************ THE COLOR SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 色彩体系] ************************************
+ ************************************ THE CORE OF COLOR SYSTEM [色彩体系核心] ************************************
  */
-
-
 /*
- ************************************ THE TYPOGRAPHY SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 排版体系] ************************************
+ ************************************ THE AUXILIARY COLOR SYSTEM EXTENSION OF COLOR SYSTEM [色彩体系 - 辅助色彩体系扩展] ************************************
  */
+/*
+ ************************************ THE COMMON COLOR EXTENSION OF COLOR SYSTEM [色彩体系 - 通用色彩扩展] ************************************
+ */
+/*
+ ************************************ THE COMPONENT COLOR EXTENSION OF COLOR SYSTEM [色彩体系 - 组件色彩扩展] ************************************
+ */
+/*
+ ************************************ THE EXTENSIONS OF COLOR SYSTEM [色彩体系扩展] ************************************
+ */
+
 
 

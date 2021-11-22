@@ -1,17 +1,36 @@
 /*
- ************************************ THE FONT OF TYPOGRAPHY SYSTEM [排版体系 - 字体] ************************************
+ ************************************ THE COMMON COLOR EXTENSION OF COLOR SYSTEM [色彩体系 - 通用色彩扩展] ************************************
  */
-:root{
-    /********** FONT FAMILY [字体] **********/
-    --font-family-1:  -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /********** FONT SIZE [字号] **********/
-    --font-size-1: 12px;
-    --font-size-2: 14px;
-    --font-size-3: 16px;
-    --font-size-4: 20px;
-    --font-size-5: 24px;
-    --font-size-6: 28px;
-    --font-size-7: 32px;
-    /********** FONT WEIGHT [字重] **********/
+:root {
+    /********** BASIC COLOR [通用基础颜色] **********/
+    --primary-color: var(--primary-color-6);
+    --shadow-color: rgba(var(--neutral-color-rgb-5),0.2);
+    --default-color: var(--neutral-color-5);
+    --highlight-color: var(--red-5);
+    --disabled-color: var(--neutral-color-5);
+    --disabled-bg: var(--neutral-color-1);
+    --border-color-base: var(--neutral-color-3);
+    --text-color:  var(--neutral-color-8);
+    --text-color-secondary: var(--neutral-color-7);
+    --text-selection-bg: var(--primary-color);
+    --heading-color: var(--neutral-color-9);
+    --background-color-light: #FFF;
+    --background-color-base:  rgba(var(--neutral-color-rgb-3), 0.4);
 
+
+
+
+    /**********  LINK COLOR [链接颜色] **********/
+    --link-color: #4868bd;
+    --link-hover-color: #5c8ae6;
+    --link-active-color: #354db0;
+    --link-disable-color: var(--disabled-color);
+
+
+    /********** INFO COLOR [信息颜色] **********/
+    --info-color: var(--blue-6);
+    --success-color: var(--green-6);
+    --processing-color: var(--blue-6);
+    --error-color: var(--red-6);
+    --warning-color: var(--yellow-6);
 }

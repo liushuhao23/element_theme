@@ -1,26 +1,5 @@
-:root {
-    --primary-color-rgb-1: 255, 246, 240;
-    --primary-color-rgb-2: 255, 229, 214;
-    --primary-color-rgb-3: 255, 201, 173;
-    --primary-color-rgb-4: 255, 169, 133;
-    --primary-color-rgb-5: 255, 135, 92;
-    --primary-color-rgb-6: 246, 93, 48;
+/*
+ ************************************ THE TYPOGRAPHY SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 排版体系] ************************************
+ */
 
-    --primary-color-rgb-7: 207, 66, 31;
-    --primary-color-rgb-8: 168, 42, 17;
-    --primary-color-rgb-9: 130, 23, 7;
-    --primary-color-rgb-10: 92, 12, 4;
-
-
-    /********** BRAND COLOR AKA PRIMARY COLOR [品牌色/主色] **********/
-    --primary-color-1: rgb(var(--primary-color-rgb-1)); /** #FFF6F0 **/
-    --primary-color-2: rgb(var(--primary-color-rgb-2)); /** #FFE5D6 **/
-    --primary-color-3: rgb(var(--primary-color-rgb-3)); /** #FFC9AD **/
-    --primary-color-4: rgb(var(--primary-color-rgb-4)); /** #FFA985 **/
-    --primary-color-5: rgb(var(--primary-color-rgb-5)); /** #FF875C **/
-    --primary-color-6: rgb(var(--primary-color-rgb-6)); /** #F65D30 **/
-    --primary-color-7: rgb(var(--primary-color-rgb-7)); /** #CF421F **/
-    --primary-color-8: rgb(var(--primary-color-rgb-8)); /** #A82A11 **/
-    --primary-color-9: rgb(var(--primary-color-rgb-9)); /** #821707 **/
-    --primary-color-10: rgb(var(--primary-color-rgb-10)); /** #5C0C04 **/
-}
+@import "font.css";

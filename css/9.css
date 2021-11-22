@@ -1,5 +1,6 @@
 /*
- ************************************ THE COLOR SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 色彩体系] ************************************
+ ************************************ THE EXTENSIONS OF COLOR SYSTEM [色彩体系扩展] ************************************
  */
-@import "core/index.css";
-@import "extension/index.css";
+@import "auxiliary.css";
+@import "common.css";
+@import "component.css";

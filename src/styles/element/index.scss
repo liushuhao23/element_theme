@@ -1,41 +1,16 @@
 
 // @use 'sass:math';
 // @use 'sass:map';
-// :root {
-//   --red-rgb-1: 255, 242, 240;
-//   --red-rgb-2: 255, 220, 214;
-//   --red-rgb-3: 255, 182, 173;
-//   --red-rgb-4: 255, 141, 133;
-//   --red-rgb-5: 255, 98, 91;
-//   --red-rgb-6: 244, 48, 48;
-//   --red-rgb-7: 207, 31, 37;
-//   --red-rgb-8: 168, 17, 27;
-//   --red-rgb-9: 130, 7, 19;
-//   --red-rgb-10: 92, 4, 15;
+@use './elementIndex.scss' as *;
+$color-test: #ffcccc;
+$color-rgb-test: rgb($color-test, 1);
 
-
-//   --red-1: rgb(var(--red-rgb-1)); /** #FFF2F0 **/
-//   --red-2: rgb(var(--red-rgb-2)); /** #FFDCD6 **/
-//   --red-3: rgb(var(--red-rgb-3)); /** FFB6AD **/
-//   --red-4: rgb(var(--red-rgb-4)); /** #FF8D85 **/
-//   --red-5: rgb(var(--red-rgb-5)); /** #FF625B **/
-//   --red-6: rgb(var(--red-rgb-6)); /** #F43030 **/
-//   --red-7: rgb(var(--red-rgb-7)); /** #CF1F25 **/
-//   --red-8: rgb(var(--red-rgb-8)); /** #A8111B **/
-//   --red-9: rgb(var(--red-rgb-9)); /** #820713 **/
-//   --red-10: rgb(var(--red-rgb-10)); /** #5C040F **/
-// }
-@use "../theme/index.scss" as *;
-// &:root {
-//   --color-tests: #FF8D85;
-// };
-$color-test: $color-tests ;
 $--colors: (
   "primary": (
-    "base": $color-test,
+    "base": $neutral-color-rgb-1,
   ),
   // "primary": (
-  //   "base": var(--primary-color),
+  //   "base": $color-test,
   // ),
   "success": (
     "base": #21ba45,
@@ -78,6 +53,7 @@ $--colors: (
 @forward "element-plus/theme-chalk/src/common/var.scss" with (
   $colors: $--colors,
 );
+
 
 // if you want to import all
 @use "element-plus/theme-chalk/src/index.scss" as *;

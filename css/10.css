@@ -1,25 +1,5 @@
-:root {
-    --neutral-color-rgb-1: 246, 249, 252;
-    --neutral-color-rgb-2: 236, 240, 248;
-    --neutral-color-rgb-3: 225, 230, 241;
-    --neutral-color-rgb-4: 201, 210, 225;
-    --neutral-color-rgb-5: 157, 170, 194;
-    --neutral-color-rgb-6: 109, 123, 152;
-    --neutral-color-rgb-7: 71, 81, 106;
-    --neutral-color-rgb-8: 42, 51, 74;
-    --neutral-color-rgb-9: 24, 30, 45;
-    --neutral-color-rgb-10: 14, 17, 27;
-
-
-    /********** NEUTRAL COLOR [中性色]  **********/
-    --neutral-color-1: rgb(var(--neutral-color-rgb-1)); /** #f6f9fc **/
-    --neutral-color-2: rgb(var(--neutral-color-rgb-2)); /** #ECF0F8 **/
-    --neutral-color-3: rgb(var(--neutral-color-rgb-3)); /** #E1E6F1 **/
-    --neutral-color-4: rgb(var(--neutral-color-rgb-4)); /** #C9D2E1 **/
-    --neutral-color-5: rgb(var(--neutral-color-rgb-5)); /** #9DAAC2 **/
-    --neutral-color-6: rgb(var(--neutral-color-rgb-6)); /** #6D7B98 **/
-    --neutral-color-7: rgb(var(--neutral-color-rgb-7)); /** #47516A **/
-    --neutral-color-8: rgb(var(--neutral-color-rgb-8)); /** #2A334A **/
-    --neutral-color-9: rgb(var(--neutral-color-rgb-9)); /** #181E2D **/
-    --neutral-color-10: rgb(var(--neutral-color-rgb-10)); /** #0E111B **/
-}
+/*
+ ************************************ THE COLOR SYSTEM OF CBIM DESIGN SYSTEM [CBIM 设计体系 - 色彩体系] ************************************
+ */
+@import "core/index.css";
+@import "extension/index.css";

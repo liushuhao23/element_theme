@@ -1,6 +1,13 @@
 /*
- ************************************ THE EXTENSIONS OF COLOR SYSTEM [色彩体系扩展] ************************************
+ ************************************ CBIM DESIGN SYSTEM VARIABLES ************************************
  */
-@import "auxiliary.css";
-@import "common.css";
-@import "component.css";
+@import "design-system/color/index.css";
+@import "design-system/typography/index.css";
+@import "design-system/animation/index.css";
+
+
+/*
+ ************************************ CBIM DESIGN SYSTEM GLOBAL STYLE ************************************
+ */
+
+@import "global/font.css";

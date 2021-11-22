@@ -4,7 +4,7 @@
  * @Autor: liushuhao
  * @Date: 2021-11-19 15:50:56
  * @LastEditors: liushuhao
- * @LastEditTime: 2021-11-21 23:16:27
+ * @LastEditTime: 2021-11-22 20:03:39
  */
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const fs = require('fs');
@@ -12,31 +12,37 @@ const fs = require('fs');
 var cssscss = require('css-scss');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path');
-const notes ='/************************************* THE EXTENSIONS OF COLOR SYSTEM [色彩体系] *************************************/';
+const notes =
+  '/************************************* THE EXTENSIONS OF COLOR SYSTEM [色彩体系] *************************************/';
 const pathUrl = 'node_modules/@cbim/design-system-variable';
 
 // 遍历获取文件下所有文件
 let walk = async function (dir, done) {
   var results = [];
-  await fs.readdir(dir, function (err, list) {
-    if (err) return done(err);
+  // eslint-disable-next-line no-useless-catch
+  try {
+    const list = fs.readdirSync(dir);
+    // console.log(fsFiles, 'readdirSync');
     var pending = list.length;
     if (!pending) return done(null, results);
     list.forEach(function (file) {
       file = path.resolve(dir, file);
-      fs.stat(file, function (err, stat) {
-        if (stat && stat.isDirectory()) {
-          walk(file, function (err, res) {
-            results = results.concat(res);
-            if (!--pending) done(null, results);
-          });
-        } else {
-          results.push(file);
+      // console.log(file, 'hshhsh')
+      const fsFile = fs.statSync(file, {throwIfNoEntry: true})
+      if (fsFile && fsFile.isDirectory())  {
+        walk(file, function (err, res) {
+          results = results.concat(res);
           if (!--pending) done(null, results);
-        }
-      });
+        });
+      } else {
+        // console.log(file, 'hshhsh')
+        results.push(file);
+        if (!--pending) done(null, results);
+      }
     });
-  });
+  } catch (error) {
+    return done(error);
+  }
 };
 // 创建文件
 const cssFile = (data) => {
@@ -53,15 +59,13 @@ const copyFile = (data) => {
   fs.mkdirSync('css');
   data.forEach((item, index) => {
     if (path.extname(item) === '.css') {
-      fs.copyFile(item, `css/${index}.css`, (err) => {
-        if (err) throw err
-      });
+      fs.copyFileSync(item, `css/${index}.css`);
     }
   });
   walk('css', async (err, results) => {
     if (err) throw err;
     await createIndexCss();
-    appendFile(results)
+    appendFile(results);
   });
 };
 // 新建index.css
@@ -70,41 +74,43 @@ const createIndexCss = () => {
   if (flag) {
     fs.unlinkSync('css/elementIndex.css');
   }
-  fs.writeFile('css/elementIndex.css', notes, (err) => {
-    if (err) throw err;
-    console.log('创建elementIndex.css 成功');
-  });
+  fs.writeFileSync('css/elementIndex.css', notes);
 };
 // 向新建的elementIndex.css 下追加内容
 const appendFile = (data) => {
-  let fileData = ''
-  data.forEach(item => {
-    fileData = fs.readFileSync(item, 'utf-8') + '\n'
-    fs.appendFile('css/elementIndex.css', fileData, (err) => {
-      if(err) throw err
-      replaceFileContent()
-    })
+  let fileData = '';
+  data.forEach((item) => {
+    fileData += fs.readFileSync(item, 'utf-8') + '\n';
   });
-  fileData = ''
-  
-}
+  // console.log(fileData, 'fileData');
+  fs.appendFileSync('css/elementIndex.css', fileData);
+  replaceFileContent()
+  fileData = '';
+};
 // 替换文件中的所有@import
 const replaceFileContent = () => {
   fs.readFile('css/elementIndex.css', 'utf-8', (err, data) => {
-    if (err) throw err
-    let searchString = '@import'
+    if (err) throw err;
+    let searchString = '@import';
     let re = new RegExp('^.*' + searchString + '.*$', 'gm');
     let formatted = data.replace(re, '');
+    let searchString1 = '-rgb-'
     fs.writeFile('css/elementIndex.css', formatted, 'utf-8', (err) => {
       if (err) throw err;
       const src = fs.readFileSync('css/elementIndex.css', 'utf8');
+      const flag = fs.existsSync('src/styles/element/elementIndex.scss');
       const scss = cssscss(src);
-      console.log(scss, 'css-scss');
-      fs.writeFileSync('./theme/elementIndex.scss', scss);
-    })
-
-  })
-}
+      if (flag) {
+        fs.unlinkSync('src/styles/element/elementIndex.scss');
+      }
+      try {
+        fs.writeFileSync('src/styles/element/elementIndex.scss', scss);
+      } catch (error) {
+        console.log(error, 'error')
+      }
+    });
+  });
+};
 walk(pathUrl, (err, results) => {
   if (err) throw err;
   cssFile(results);
